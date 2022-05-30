@@ -28,6 +28,15 @@
     border-top: none;
   }
 
+  .catalog__card {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 36px 39px;
+    margin: 0;
+    border-bottom: none;
+    background: linear-gradient(to bottom, $color-white 81px, $color-basic-grey  81px);
+  }
+
   .catalog__title {
     padding: 0 0 82px;
     font-size: 60px;
@@ -48,6 +57,12 @@
   .catalog {
     padding: 0 110px;
     margin-bottom: 76px;
+  }
+
+  .catalog__card {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 40px 35px;
   }
 
   .catalog__title {
